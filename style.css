@@ -1,0 +1,82 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background: #0077b6;
+  color: #fff;
+  padding: 20px 0;
+}
+.header nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background: url("hero-bg.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+.btn {
+  background: #ffba08;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* Section judul */
+h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+/* Tour cards */
+.tour-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: calc(50% - 10px);
+}
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.price {
+  font-weight: bold;
+  color: #0077b6;
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
